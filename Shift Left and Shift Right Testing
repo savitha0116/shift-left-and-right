@@ -1,0 +1,31 @@
+                  Difference between Shift Left and Shift Right Testing.
+| Feature             | Shift Left Testing         | Shift Right Testing                       |
+| ------------------- | -------------------------- | ----------------------------------------- |
+| **When**            | Early (development phase)  | Later (after deployment)                  |
+| **Goal**            | Prevent defects            | Detect issues in real-world use           |
+| **Focus**           | Quality of code & logic    | Performance, reliability, user experience |
+| **Examples**        | Unit tests, API tests, TDD | A/B tests, monitoring, chaos testing      |
+| **Cost of bug fix** | Very low                   | Higher                                    |
+| **Environment**     | Dev & QA environments      | Staging & production                      |
+
+            *Shift Left Testing:*
+Shift Left Testing is an approach where testing activities are moved earlier in the software development lifecycle (SDLC). This means testing starts as early as possible, ideally from the requirements gathering phase.
+*Key Characteristics:*
+1.  *Early Testing*: Testing starts early in the SDLC.
+2.  *Prevention-Oriented*: Focus on preventing defects rather than detecting them.
+3.  *Collaboration*: Encourages collaboration between developers, testers, and stakeholders.
+4.  *Automated Testing*: Emphasizes automated testing to speed up the testing process.
+
+            *Shift Right Testing:*
+Shift Right Testing is an approach where testing activities are moved later in the SDLC, typically after the software has been deployed to production.
+
+           *Key Characteristics:*
+1.  *Post-Deployment Testing*: Testing occurs after deployment to production.
+2.  *Monitoring and Feedback*: Focus on monitoring and gathering feedback from users.
+3.  *Continuous Testing*: Emphasizes continuous testing in production.
+4.  *Real-World Scenarios*: Tests are based on real-world scenarios and user behavior.
+            
+          *Key Differences:*
+1.  *Timing*: Shift Left Testing occurs early in the SDLC, while Shift Right Testing occurs later, after deployment.
+2.  *Focus*: Shift Left Testing focuses on preventing defects, while Shift Right Testing focuses on monitoring and feedback.
+3.  *Approach*: Shift Left Testing emphasizes automated testing, while Shift Right Testing emphasizes continuous testing in production.
