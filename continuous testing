@@ -1,0 +1,13 @@
+              continuous testing
+Continuous testing is a software testing approach where testing is performed continuously throughout the software development lifecycle (SDLC). This means testing is not a separate phase, but an integral part of the development process.
+        Key Characteristics:
+  * Continuous Integration*: Code changes are continuously integrated and tested.
+  * Automated Testing*: Automated tests are run continuously to validate code changes.
+  * Real-Time Feedback*: Developers receive real-time feedback on code quality and functionality.
+  * Shift Left*: Testing is shifted left, starting from the earliest stages of development.
+         *Best Practices:*
+1.  *Automate Repetitive Tests*: Automate tests that are repetitive and time-consuming.
+2.  *Use Continuous Integration Tools*: Use tools like Jenkins, Travis CI, or CircleCI.
+3.  *Monitor and Feedback*: Continuously monitor and gather feedback.
+4.  *Shift Left*: Shift testing left, starting from the earliest stages of development.
+
